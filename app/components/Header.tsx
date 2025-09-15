@@ -21,7 +21,7 @@ export default function Header({
 }: HeaderProps) {
   return (
     <header className="sticky top-0 z-50 text-white bg-gradient-to-r from-blue-600 via-purple-600 to-indigo-600 border-b-4 border-indigo-600 shadow-md">
-      <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-3">
+      <div className="mx-auto flex max-w-8xl items-center justify-between px-6 py-3">
     {/* Brand */}
 <div className="flex items-center gap-3">
   <img 
