@@ -51,3 +51,4 @@ export default function Map({ bus }: MapProps) {
     </MapContainer>
   );
 }
+

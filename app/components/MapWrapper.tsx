@@ -13,3 +13,4 @@ const Map = dynamic(() => import('./Map'), { ssr: false });
 export default function MapWrapper({ bus }: MapWrapperProps) {
   return <Map bus={bus} />;
 }
+
