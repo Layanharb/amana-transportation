@@ -1,5 +1,5 @@
 import { NextResponse } from 'next/server';
-import transportationData from '../../../data/transportation-data.json';
+import transportationData from '../../../../data/transportation-data.json';
 
 export async function GET() {
   try {
