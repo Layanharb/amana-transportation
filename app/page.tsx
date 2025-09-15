@@ -24,7 +24,7 @@ export default function Home() {
   async function fetchBusData() {
     try {
       setError(null);
-      const res = await fetch('/api/transportation', { cache: 'no-store' });
+      const res = await fetch('/api/transportation/route.ts', { cache: 'no-store' });
       if (!res.ok) throw new Error(`HTTP ${res.status}`);
       const data: BusData = await res.json();
       setBusData(data);
